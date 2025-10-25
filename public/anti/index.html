@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <span class="menu-text">MENU</span>
+            <h1 class="logo">Health</h1>
+            <div class="search-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#fff"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+                <span>SEARCH</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container content">
+            <p class="breadcrumb">From Behind the Scenes of the Adult Industry to Your Bedroom:</p>
+            <h2 class="main-headline">The "Baking Soda Trick" Is 97% More Effective Than the Blue Pill for Fighting Erection Issues</h2>
+
+            <p class="intro-text">
+                One of the most significant recent discoveries in men's health has revealed a natural solution that is 97% more potent than the blue pills.
+            </p>
+            <p class="intro-text">
+                Known as the "Baking Soda Trick," this formula, which has gone viral among men over 40, is gaining worldwide fame, with experts calling it "the ultimate solution" for combating bedroom embarrassment. This method is so effective that even celebrities and adult industry actors are using it to achieve incredible results with this simple, homemade approach.
+            </p>
+
+            <p class="author-info">
+                By <strong>Julian Ross</strong><br>
+                <span id="current-date"></span> - Updated 2 hours ago
+            </p>
+
+            <div class="social-share">
+                <a href="#" class="facebook-share"></a>
+                <a href="#" class="whatsapp-share"></a>
+            </div>
+            
+            <div class="quote-box">
+                <h3>Dr. Oz explains:</h3>
+                <blockquote>
+                    "The 'Baking Soda Trick' marks the beginning of a true revolution in male performance. Unlike restrictive diets or medications that only temporarily suppress the problem, this method targets the root cause of erection difficulties: the accumulation of toxins that block blood flow."
+                </blockquote>
+                <blockquote>
+                    "In a recent interview, he stated that clinical trials have demonstrated its effectiveness across various profiles, including individuals who have struggled with the issue for years and even those who had previously resorted to invasive surgeries."
+                </blockquote>
+            </div>
+
+            <div class="video-section">
+                <a href="https://YOUR-AFFILIATE-LINK-HERE" class="video-thumbnail">
+                    <!-- Replace with your video thumbnail URL -->
+                    <img src="https://img.playbuzz.com/image/upload/v1617726485/production/b5295c52-78d2-49a3-95e2-073c4f713e7d.jpg" alt="Video about the method">
+                    <div class="play-button"></div>
+                </a>
+            </div>
+
+            <p class="security-notice">
+                For security reasons and to protect this method from the big pharmaceutical industry, this interview is available only in an exclusive video that will go offline on <strong id="offline-date"></strong>.
+            </p>
+
+            <h3 class="cta-headline">To watch the full video, click the button below:</h3>
+
+            <div class="cta-button-container">
+                <a href="https://YOUR-AFFILIATE-LINK-HERE" class="cta-button">
+                    Click Here To Watch The Video
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>ALL RIGHTS RESERVED</p>
+    </footer>
+
+    <script>
+        // Script to dynamically update dates
+        const today = new Date();
+        const options = { day: '2-digit', month: '2-digit', year: 'numeric' };
+        
+        // Use 'en-US' for US English date format (MM/DD/YYYY) or 'en-GB' for UK format (DD/MM/YYYY)
+        document.getElementById('current-date').innerText = today.toLocaleDateString('en-US', options);
+        document.getElementById('offline-date').innerText = today.toLocaleDateString('en-US', options);
+    </script>
+</body>
+</html>
